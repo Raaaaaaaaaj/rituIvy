@@ -16,6 +16,10 @@ import { url } from "inspector";
 import ivySolo from "@/assets/images/IVY SOLO/2017-08-01-PHOTO-00000361.jpg"
 import ivyExecutive from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
 import ivyPremier from "@/assets/images/EXECUTIVE TWIN/002.jpg"
+import ivyExecutive2 from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
+import king1 from "@/assets/images/IVY KING/002.jpg";
+
+
 
 // Hero Section
 const Hero = () => (
@@ -173,14 +177,14 @@ const rooms = [
   },
   {
     name: "Ivy Executive Rooms",
-    image: ivyExecutive,
+    image: ivyExecutive2,
     description: "Well-appointed room category sized ~240 sq ft, featuring either a cosy king bed or twin beds with city views.",
     capacity: "2 Adults + 1 Child",
     size: "550 sq ft"
   },
   {
     name: "Ivy Premier Rooms",
-    image: ivyPremier,
+    image: king1,
     description: "A spacious room covering approximately 306 sq ft, thoughtfully designed with plush king or twin bed options and refined interiors.",
     capacity: "2 Adults + 1 Child",
     size: "306 sq ft"

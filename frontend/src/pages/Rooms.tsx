@@ -9,6 +9,7 @@ import twin1 from "@/assets/images/IVY TWIN/0004.jpg";
 import ivyExecutive from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
 
 
+
 const rooms = [
   {
     id: 1,
@@ -34,7 +35,7 @@ const rooms = [
     id: 3,
     name: "Ivy Premier Rooms",
     description: "A spacious room covering approximately 306 sq ft, thoughtfully designed with plush king or twin bed options and refined interiors. Ideal for guests seeking enhanced comfort, extra space, and a relaxed stay experience, whether travelling for business or leisure.",
-    image: twin1,
+    image: ivyExecutive,
     capacity: "2 Adults + 1 Children",
     size: "306 sq ft",
     features: ["King Size or Twin Beds", "Air Conditioning", "City View", "Premium Toiletries", "24/7 Room Service", "High Speed WiFi", "Smart TV"],
