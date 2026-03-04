@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { MapPin, Phone } from "lucide-react";
 import Facade3 from "@/assets/images/facade/Pathway4.jpg";
+import Facade4 from "@/assets/images/facade/facade_new.png";
+
 
 const facilities = [
   {
@@ -59,7 +61,7 @@ const Facilities = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.6), rgba(26, 46, 26, 0.8)), url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&q=80')`,
+            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.6), rgba(26, 46, 26, 0.8)), url(${Facade4})`,
           }}
         />
         <div className="relative z-10 text-center px-4">

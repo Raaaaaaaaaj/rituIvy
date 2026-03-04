@@ -1,16 +1,17 @@
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import reception1 from "@/assets/images/reception/_MG_7304.JPG"
 
 const Banquets = () => {
   return (
     <Layout>
       {/* HERO SECTION */}
-      <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[90vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(26,46,26,0.6), rgba(26,46,26,0.85)), url('https://images.unsplash.com/photo-1582719478185-2f3c77b7a6c1?w=1920&q=80')`,
+            backgroundImage: `linear-gradient(to bottom, rgba(26,46,26,0.6), rgba(26,46,26,0.85)), url(${reception1})`,
           }}
         />
         <div className="relative z-10 text-center px-4 max-w-4xl">

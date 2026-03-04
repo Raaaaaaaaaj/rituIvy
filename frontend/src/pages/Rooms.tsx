@@ -6,6 +6,8 @@ import border from "@/assets/images/borders/Border Pattern-02.png";
 import solo1 from "@/assets/images/IVY SOLO/_MG_7378.JPG";
 import king1 from "@/assets/images/IVY KING/002.jpg";
 import twin1 from "@/assets/images/IVY TWIN/0004.jpg";
+import ivyExecutive from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
+
 
 const rooms = [
   {
@@ -48,7 +50,7 @@ const Rooms = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.6), rgba(26, 46, 26, 0.8)), url('https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1920&q=80')`,
+            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.6), rgba(26, 46, 26, 0.8)), url(${ivyExecutive})`,
           }}
         />
         <div className="relative z-10 text-center px-4">

@@ -13,6 +13,9 @@ import Facade4 from "@/assets/images/facade/facade_new.png";
 import { useState } from "react";
 import border from "@/assets/images/borders/Border Pattern-02.png";
 import { url } from "inspector";
+import ivySolo from "@/assets/images/IVY SOLO/2017-08-01-PHOTO-00000361.jpg"
+import ivyExecutive from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
+import ivyPremier from "@/assets/images/EXECUTIVE TWIN/002.jpg"
 
 // Hero Section
 const Hero = () => (
@@ -163,21 +166,21 @@ const Amenities = () => (
 const rooms = [
   {
     name: "Ivy Solo Rooms",
-    image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&q=80",
+    image: ivySolo,
     description: "A cosy room designed for solo travellers, offering comfort and modern essentials for a relaxing stay in Kolkata.",
     capacity: "1 Adult",
     size: "168 sq ft"
   },
   {
     name: "Ivy Executive Rooms",
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&q=80",
+    image: ivyExecutive,
     description: "Well-appointed room category sized ~240 sq ft, featuring either a cosy king bed or twin beds with city views.",
     capacity: "2 Adults + 1 Child",
     size: "550 sq ft"
   },
   {
     name: "Ivy Premier Rooms",
-    image: "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=600&q=80",
+    image: ivyPremier,
     description: "A spacious room covering approximately 306 sq ft, thoughtfully designed with plush king or twin bed options and refined interiors.",
     capacity: "2 Adults + 1 Child",
     size: "306 sq ft"
