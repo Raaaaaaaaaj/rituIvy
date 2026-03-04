@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle, Loader2 } from "lucide-react";
 import { useState } from "react";
 
-
 const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -76,7 +75,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="text-cream text-lg max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            We're here to help plan your perfect jungle retreat
+            We're always happy to assist - whether you're planning a stay, a celebration, or simply have a question.
           </p>
         </div>
       </section>

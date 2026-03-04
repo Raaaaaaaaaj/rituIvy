@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Leaf, Heart, Shield, Users, Award, TreePine } from "lucide-react";
 import border from "@/assets/images/borders/Border Pattern-02.png";
 
-
 const About = () => {
   return (
     <Layout>
@@ -24,17 +23,15 @@ const About = () => {
             About Us
           </h1>
           <p className="text-cream text-lg max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Where luxury meets wilderness in perfect harmony
+            A thoughtfully managed boutique hotel in the heart of Kolkata.
           </p>
         </div>
       </section>
-
       <div
         className="w-100 bg-repeat-x bg-contain h-[60px]"
         style={{ backgroundImage: `url(${border})` }}
       >
       </div>
-
       {/* Story Section */}
       <section className="py-20 bg-cream">
         <div className="container mx-auto px-4">
@@ -46,38 +43,27 @@ const About = () => {
                 className="rounded-lg shadow-elegant w-full"
               />
               <div className="absolute -bottom-8 -right-8 bg-gold p-6 rounded-lg shadow-elegant hidden md:block">
-                <p className="font-display text-4xl text-jungle">15+</p>
-                <p className="text-jungle/80 text-sm">Years of Excellence</p>
+                <p className="font-display text-4xl text-jungle">7+</p>
+                <p className="text-jungle/80 text-sm">Years of care & commitment</p>
               </div>
             </div>
-
             <div className="animate-fade-up" style={{ animationDelay: "0.2s" }}>
               <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
                 Our Journey
               </p>
               <h2 className="font-display text-4xl md:text-5xl text-jungle mb-6">
-                A Legacy of Hospitality
+                A story of Trusted Hospitality inspired by the spirit of:  <br /> "Atithi Debo Bhava".
               </h2>
               <p className="text-earth mb-6 leading-relaxed">
-                Founded with a simple vision, Hotel ABC began as a dream to create
-                a sanctuary where guests could experience royal luxury without
-                compromising on comfort and tranquility.
+                Hotel Ritu Ivy was founded with a simple vision - to create a welcoming space where guests feel genuinely cared for. Over the years we have grown into a trusted 36-room hotel in Kolkata, known for comfortable stays and well-managed celebration.
               </p>
               <p className="text-earth mb-6 leading-relaxed">
-                Set in a serene natural environment, our resort has grown from a
-                modest retreat into a premier destination for those seeking
-                elegance, relaxation, and world-class hospitality.
-              </p>
-              <p className="text-earth leading-relaxed">
-                Today, we pride ourselves on offering an authentic jungle experience
-                complemented by world-class amenities, personalized service, and a deep
-                commitment to conservation and sustainable tourism.
+                With direct involvement from ownership in daily operations, we ensure personal attention, consistency and dependable service at every level.
               </p>
             </div>
           </div>
         </div>
       </section>
-
       {/* Mission & Vision */}
       <section className="py-20 bg-jungle">
         <div className="container mx-auto px-4">
@@ -88,29 +74,21 @@ const About = () => {
               </div>
               <h3 className="font-display text-3xl text-gold mb-4">Our Mission</h3>
               <p className="text-gold leading-relaxed">
-                To provide an unparalleled blend of luxury hospitality and authentic
-                wildlife experiences while fostering environmental conservation and
-                supporting local communities. Every guest who stays with us becomes
-                part of our mission to protect India's incredible biodiversity.
+                To provide comfortable stays and well managed celebrations with warmth. Consistency and genuine care - ensuring every guest feels welcomed & valued.
               </p>
             </div>
-
             <div className="bg-cream p-10 rounded-lg border border-cream/10 animate-fade-up" style={{ animationDelay: "0.1s" }}>
               <div className="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center mb-6">
                 <Award className="w-8 h-8 text-gold" />
               </div>
               <h3 className="font-display text-3xl text-gold mb-4">Our Vision</h3>
               <p className="text-gold leading-relaxed">
-                To be recognized as Central India's most trusted eco-luxury destination,
-                setting new standards in sustainable tourism. We envision a future where
-                tourism serves as a powerful force for wildlife conservation and
-                community empowerment.
+                To be recognised as one of Kolkata's most trusted budget hotel brand known for dependable service, personal atention and seamless event and stay experience.
               </p>
             </div>
           </div>
         </div>
       </section>
-
       {/* Values */}
       {<section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -122,13 +100,12 @@ const About = () => {
               Our Core Values
             </h2>
           </div>
-
-          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-1 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: Leaf,
-                title: "Sustainability",
-                description: "Eco-friendly practices in every aspect of our operations",
+                title: "Accountability",
+                description: "Hands-on ownership involvement & responsibility at every level",
               },
               {
                 icon: Heart,
@@ -137,8 +114,13 @@ const About = () => {
               },
               {
                 icon: Shield,
-                title: "Conservation",
-                description: "Active participation in wildlife protection initiatives",
+                title: "Consistency",
+                description: "Reliable standards in rooms, banquets & guest experiences",
+              },
+              {
+                icon: Shield,
+                title: "Care",
+                description: "Attention to details in both everyday stays and special occasions",
               }
             ].map((value, index) => (
               <div
@@ -156,7 +138,6 @@ const About = () => {
           </div>
         </div>
       </section>}
-
       {/* Timeline */}
       {/* { <section className="py-20 bg-cream">
         <div className="container mx-auto px-4">
@@ -168,7 +149,6 @@ const About = () => {
               A Journey Through Time
             </h2>
           </div>
-
           <div className="max-w-4xl mx-auto">
             {[
               { year: "2008", title: "The Beginning", description: "Started as a small 8-room jungle lodge" },
@@ -195,10 +175,8 @@ const About = () => {
           </div>
         </div>
       </section> } */}
-
       {/* CTA */}
     </Layout>
   );
 };
-
 export default About;

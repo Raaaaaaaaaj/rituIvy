@@ -14,9 +14,9 @@ const rooms = [
     description: "A cosy room designed for solo travellers, offering comfort and modern essentials for a relaxing stay in Kolkata.",
     image: solo1,
     capacity: "1 Adult",
-    size: "240 sq ft",
+    size: "168 sq ft",
     features: ["Single Bed", "Work Desk", "Air Conditioning", "High Speed WiFi", "24/7 Room Service", "Smart TV", "Premium Toiletries"],
-    amenities: [Wifi, Wind, Coffee, Tv, Bath],
+    amenities: [Wifi, Wind, Coffee, Tv],
   },
   {
     id: 2,
@@ -25,8 +25,8 @@ const rooms = [
     image: king1,
     capacity: "2 Adults + 1 Child",
     size: "240 sq ft",
-    features: ["King Size Bed", "Premium Toiletries", "Work Desk", "Air Conditioning", "24/7 Room Service", "High Speed WiFi", "Smart TV"],
-    amenities: [Wifi, Wind, Coffee, Tv, Bath],
+    features: ["King Size Bed or Twin beds", "Premium Toiletries", "Work Desk", "Air Conditioning", "24/7 Room Service", "High Speed WiFi", "Smart TV"],
+    amenities: [Wifi, Wind, Coffee, Tv],
   },
   {
     id: 3,
@@ -35,8 +35,8 @@ const rooms = [
     image: twin1,
     capacity: "2 Adults + 1 Children",
     size: "306 sq ft",
-    features: ["Two Separate Beds", "Air Conditioning", "City View", "Premium Toiletries", "24/7 Room Service", "High Speed WiFi", "Smart TV"],
-    amenities: [Wifi, Wind, Coffee, Tv, Bath],
+    features: ["King Size or Twin Beds", "Air Conditioning", "City View", "Premium Toiletries", "24/7 Room Service", "High Speed WiFi", "Smart TV"],
+    amenities: [Wifi, Wind, Coffee, Tv],
   }
 ];
 
@@ -56,10 +56,10 @@ const Rooms = () => {
             Accommodations
           </p>
           <h1 className="font-display text-5xl textBodoniBold md:text-6xl lg:text-7xl text-cream mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Our Rooms & Suites
+            Our Rooms
           </h1>
           <p className="text-cream text-lg textMontserrat max-w-5xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Each of our accommodations has been thoughtfully designed to blend seamlessly with the natural surroundings while providing all the modern comforts you expect from a modern hotel.
+            Each of our accommodations has been thoughtfully designed to offer comfort, convenience and a relaxing stay in the heart of Kolkata.
           </p>
         </div>
       </section>
@@ -157,7 +157,7 @@ const Rooms = () => {
             </div>
             <div className="text-center">
               <h3 className="font-display text-xl text-jungle mb-2 textBodoniBold">Cancellation</h3>
-              <p className="text-black textMontserrat">* Free up to 48 hours</p>
+              <p className="text-black textMontserrat">* Free up to 24 hours</p>
             </div>
           </div>
         </div>

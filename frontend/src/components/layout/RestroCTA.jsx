@@ -18,13 +18,13 @@ export const RESTROCTA = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gold font-medium tracking-[0.2em] uppercase mb-4">
-            YOUR PERFECT CUISINE AWAITS
+            DINE WITH US
           </p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-cream mb-6">
-            Book Your Table at IVY RESTRO
+            Book Your Table at The Ivy Parlour
           </h2>
           <p className="text-cream text-lg max-w-2xl mx-auto mb-10">
-            Experience comfort and refined hospitality in the heart of Kolkata. Thoughtfully designed rooms, modern amenities, and personalized service ensure a memorable stay for business and leisure travelers alike.
+            A contemporary dining space offering thoughfully prepared breakfast and curated menus in a calm & welcoming setting. Designed for both in house guests and visitors. The Ivy Parlour brings comfort and flavour together under one roof.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button asChild size="lg" className="bg-gold hover:bg-cream hover:text-jungle text-cream font-semibold px-8">

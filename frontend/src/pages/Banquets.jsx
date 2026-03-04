@@ -51,10 +51,11 @@ const Banquets = () => {
             </p>
 
             <ul className="space-y-3 text-dark">
-              <li>• Capacity up to 250 guests</li>
+              <li>• Capacity up to 300 guests</li>
               <li>• Fully air-conditioned hall</li>
               <li>• Custom seating & stage arrangements</li>
               <li>• Dedicated event coordination team</li>
+              <li>• Curated meanus for all occassions</li>
             </ul>
           </div>
 
@@ -128,8 +129,8 @@ const Banquets = () => {
                 desc: "Custom menus curated for corporate and social events.",
               },
               {
-                title: "Royal Interiors",
-                desc: "Semi-royal décor with modern lighting and ambience.",
+                title: "Versatile Interiors",
+                desc: "Spaces designed for celebrations & meetings alike.",
               },
             ].map((item, index) => (
               <div

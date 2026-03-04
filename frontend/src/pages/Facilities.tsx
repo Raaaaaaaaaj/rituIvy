@@ -70,7 +70,7 @@ const Facilities = () => {
             Facilities
           </h1>
           <p className="text-cream text-lg max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Where luxury meets wilderness in perfect harmony
+            Everything you need for a related and will managed stay
           </p>
         </div>
       </section>

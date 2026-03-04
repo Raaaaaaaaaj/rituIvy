@@ -10,7 +10,7 @@ const navLinks = [
   { name: "Why RITU IVY?", path: "/about" },
   { name: "Rooms", path: "/rooms" },
   { name: "Facilities ", path: "/experiences" },
-  { name: "Banquests & Conference Halls", path: "/banquets" },
+  { name: "Banquets & Conference Halls", path: "/banquets" },
   { name: "Restaurants", path: "/restaurants" },
   { name: "FAQs", path: "/faqs" },
   { name: "Contact", path: "/contact" },

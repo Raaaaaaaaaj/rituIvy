@@ -9,6 +9,7 @@ import {
 import Facade1 from "@/assets/images/facade/facade-1.jpg";
 import Facade2 from "@/assets/images/facade/2017-08-01-PHOTO-00000344.jpg";
 import Facade3 from "@/assets/images/facade/Pathway4.jpg";
+import Facade4 from "@/assets/images/facade/facade_new.png";
 import { useState } from "react";
 import border from "@/assets/images/borders/Border Pattern-02.png";
 import { url } from "inspector";
@@ -18,13 +19,13 @@ const Hero = () => (
   <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
     <div
       className="absolute inset-0 bg-cover bg-center"
-      style={{ backgroundImage: `url(${Facade1})` }}
+      style={{ backgroundImage: `url(${Facade4})` }}
     />
     <div className="absolute inset-0 bg-gradient-to-t from-jungle/80 via-transparent to-transparent" />
 
     <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
       <p className="text-gold font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
-        Welcome to the Experience
+        Welcome to
       </p>
       <h1 className="font-display text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-cream mb-6 leading-tight animate-fade-up" style={{ animationDelay: "0.1s" }}>
         Hotel{" "}
@@ -33,13 +34,15 @@ const Hero = () => (
         </span>
       </h1>
       <p className="text-cream text-lg md:text-xl max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-        Experience royal luxury and tranquility in an atmosphere of refined elegance and comfort.
+        A homely stay, a seamless experience.
+        <br />
+        Experience thoughtfully designed rooms, dependable service and versatile event spaces, in the heart of kolkata.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
-        <Button asChild size="lg" className="bg-gold hover:bg-gold-dark text-jungle font-semibold px-8">
+        <Button asChild size="lg" className="bg-gold hover:bg-gold-dark text-cream hover:border-cream hover:bg-cream hover:text-gold font-semibold px-8">
           <Link to="/rooms">Explore Rooms</Link>
         </Button>
-        <Button asChild size="lg" variant="outline" className="border-cream text-cream hover:bg-cream/10">
+        <Button asChild size="lg" variant="outline" className="border-cream bg-cream text-gold hover:bg-gold hover:border-gold hover:text-cream">
           <Link to="/contact">Book Your Stay</Link>
         </Button>
       </div>
@@ -69,8 +72,8 @@ const AboutPreview = () => (
               className="rounded-lg shadow-elegant w-full"
             />
             <div className="absolute -bottom-6 -right-6 bg-jungle text-cream p-6 rounded-lg shadow-elegant hidden md:block">
-              <p className="font-display text-4xl text-gold">15+</p>
-              <p className="text-cream/80 text-sm">Years of Excellence</p>
+              <p className="font-display text-4xl text-gold">7+</p>
+              <p className="text-cream/80 text-sm">Years of care and commitment inspired by the spirit of <b> "अतिथि देवो भव" </b></p>
             </div>
           </div>
 
@@ -79,16 +82,16 @@ const AboutPreview = () => (
               Our Story
             </p>
             <h2 className="font-display text-4xl md:text-5xl text-jungle mb-6">
-              Where Luxury Meets Elegance
+              Built On Care. <br /> Driven By Hospitality
             </h2>
             <p className="text-earth mb-6 leading-relaxed">
-              Hotel ABC offers an unparalleled blend of royal elegance and natural serenity.
-              Our resort provides a peaceful retreat where luxury meets tranquility in
-              perfect harmony.
+              Hotel Ritu Ivy is a thoughtfully managed 36-rooms property in Kokata, offering comfortable stays and well curated banquet spaces under one roof.
+              <br /> <br />
+              With over 7 years of experiece in hosting travellers & celebrations alike, we combine structure service with a warm, personal approcah, ensuring every guest feels valued.
             </p>
             <div className="grid grid-cols-3 gap-6 mb-8">
               <div className="text-center">
-                <p className="font-display text-3xl text-gold">35+</p>
+                <p className="font-display text-3xl text-gold">36</p>
                 <p className="text-earth text-sm">Luxury Rooms</p>
               </div>
               <div className="text-center">
@@ -114,9 +117,9 @@ const AboutPreview = () => (
 const amenities = [
   { icon: Wifi, title: "Free WiFi", description: "High-speed internet throughout" },
   { icon: UtensilsCrossed, title: "Multi-Cuisine Restaurant", description: "Local & international flavors" },
-  { icon: Car, title: "Airport Transfer", description: "Convenient airport pickup and drop services" },
-  { icon: TreePine, title: "Local Sighseeing", description: "Guided local sightseeing" },
-  { icon: Waves, title: "Swimming Pool", description: "Relaxing pool with bar facility" },
+  { icon: Car, title: "Elegant Banquet Spaces", description: "Ideal for weddings, corporate meetings & celebrations" },
+  { icon: TreePine, title: "24x7 Front Desk", description: "Round the clock assistance for a smooth stay" },
+  { icon: Waves, title: "Power Backup", description: "Ensuring your comform is never interrupted" },
   { icon: Shield, title: "24/7 Security", description: "Round-the-clock protection" },
 ];
 
@@ -125,10 +128,10 @@ const Amenities = () => (
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
-          World-Class Facilities
+          Our Facilities
         </p>
         <h2 className="font-display text-4xl md:text-5xl text-cream">
-          Resort Amenities
+          Hotel Amenities
         </h2>
       </div>
 
@@ -163,24 +166,21 @@ const rooms = [
     image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&q=80",
     description: "A cosy room designed for solo travellers, offering comfort and modern essentials for a relaxing stay in Kolkata.",
     capacity: "1 Adult",
-    size: "350 sq ft",
-    price: "₹4,500",
+    size: "168 sq ft"
   },
   {
     name: "Ivy Executive Rooms",
     image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&q=80",
     description: "Well-appointed room category sized ~240 sq ft, featuring either a cosy king bed or twin beds with city views.",
     capacity: "2 Adults + 1 Child",
-    size: "550 sq ft",
-    price: "₹7,500",
+    size: "550 sq ft"
   },
   {
     name: "Ivy Premier Rooms",
     image: "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=600&q=80",
     description: "A spacious room covering approximately 306 sq ft, thoughtfully designed with plush king or twin bed options and refined interiors.",
     capacity: "2 Adults + 1 Child",
-    size: "1200 sq ft",
-    price: "₹20,000",
+    size: "306 sq ft"
   },
 ];
 
@@ -189,14 +189,13 @@ const RoomsPreview = () => (
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
-          Luxury Accommodations
+          Comfortable Accommodations
         </p>
         <h2 className="font-display text-4xl md:text-5xl text-jungle mb-4">
-          Our Rooms & Suites
+          Our Rooms
         </h2>
         <p className="text-earth">
-          Each room is thoughtfully designed to provide comfort while keeping you
-          connected with nature.
+          Each room is thoughtfully designed to provide comfort, convenience & a personalised experience.
         </p>
       </div>
 
@@ -213,9 +212,6 @@ const RoomsPreview = () => (
                 alt={room.name}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
-              <div className="absolute top-4 right-4 bg-gold text-jungle px-3 py-1 rounded text-sm font-semibold">
-                From {room.price}
-              </div>
             </div>
             <div className="p-6">
               <h3 className="font-display text-2xl text-gold mb-2">{room.name}</h3>
@@ -248,22 +244,22 @@ const RoomsPreview = () => (
 // Testimonials
 const testimonials = [
   {
-    name: "Priya Sharma",
-    location: "New Delhi",
+    name: "Priti Sajal Chattopadhyay",
+    location: "Kolkata",
     rating: 5,
-    text: "An absolute paradise! The safari experience was incredible, and the staff made us feel like royalty. Will definitely return.",
+    text: "Thank you to Ritu Ivy Team. We had booked the entire hotel for Four days. Needless to say the services provided by the Team was excellent. Every team knew their job and very efficiently they attended to every aspect as if it was a wedding in their own family. Food was as we wanted it to be simple and authentic capturing the flavours of Kolkata.. Our guests got special prompt services from all the staff. The Kitchen team were very cordial with our guests and took care of all individually. Sandeep was always there for us during every event. Manisha was the best decorator. She took care of every nitty gritty event wise. Overall we had a very good experience in Ritu Ivy. Thank you. God Bless....",
   },
   {
-    name: "Michael Chen",
-    location: "Singapore",
+    name: "Vishal Arora",
+    location: "Delhi",
     rating: 5,
-    text: "Perfect blend of luxury and nature. Waking up to birdsong and having world-class amenities - couldn't ask for more.",
+    text: "It's Really a Great Experience to stay here . A Special Thanks to Late Night Chef Mr Manglu . He Is really a sweet Person . A Big Reason to stay his Late Night Punjabi Food. I will visit again surely. 😊",
   },
   {
-    name: "Anjali Patel",
-    location: "Mumbai",
+    name: "Shayan",
+    location: "Kolkata",
     rating: 5,
-    text: "The location is unbeatable - Khajuraho temples and Panna safari both just minutes away. Excellent hospitality!",
+    text: "We had a very pleasant stay at the hotel. The staff were very polite and helpful. The rooms were great and the hotel is located at prime location just behind the GST Bhawan. We stayed there for 3 nights and had a wonderful experience. The complementary breakfast is very good plus the food quality and quantity both are just perfect.",
   },
 ];
 
