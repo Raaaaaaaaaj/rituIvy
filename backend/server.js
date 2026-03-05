@@ -5,7 +5,17 @@ require("dotenv").config();
 
 const app = express();
 
-app.use(cors());
+app.use(
+    cors({
+        origin: [
+            "http://localhost:5173",
+            "https://hotelrituivy.com",
+            "https://www.hotelrituivy.com"
+        ],
+        methods: ["GET", "POST"],
+        credentials: true
+    })
+);
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
@@ -15,11 +25,13 @@ app.post("/contact", async (req, res) => {
 
     try {
         const transporter = nodemailer.createTransport({
-            service: "gmail",
+            host: "smtp.gmail.com",
+            port: 465,
+            secure: true,
             auth: {
                 user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
-            },
+                pass: process.env.EMAIL_PASS
+            }
         });
 
         await transporter.sendMail({
