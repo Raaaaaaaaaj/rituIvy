@@ -136,7 +136,7 @@ export const Footer = () => {
         </div>
       </div>
       <div
-        className="w-100 bg-repeat-x bg-cover h-[100px]"
+        className="w-100 bg-repeat-x bg-cover h-[60px]"
         style={{ backgroundImage: `url(${border})` }}
       >
       </div>

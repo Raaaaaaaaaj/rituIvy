@@ -2,6 +2,20 @@ import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import reception1 from "@/assets/images/reception/_MG_7304.JPG"
+import banquet1 from "@/assets/images/BanquetsAndConference/banquet2.jpeg"
+import banquet2 from "@/assets/images/BanquetsAndConference/banquet1.jpeg"
+import border from "@/assets/images/borders/Border Pattern-02.png";
+import one from "@/assets/images/BanquetsAndConference/1.jpeg";
+import two from "@/assets/images/BanquetsAndConference/2.jpeg"; 
+import three from "@/assets/images/BanquetsAndConference/3.jpeg"; 
+import four from "@/assets/images/BanquetsAndConference/4.jpeg"; 
+import five from "@/assets/images/BanquetsAndConference/5.jpeg";
+import six from "@/assets/images/BanquetsAndConference/6.jpeg"; 
+import seven from "@/assets/images/BanquetsAndConference/7.jpeg"; 
+import eight from "@/assets/images/BanquetsAndConference/8.jpeg"; 
+import nine from "@/assets/images/BanquetsAndConference/9.jpeg"; 
+import ten from "@/assets/images/BanquetsAndConference/10.jpeg"; 
+
 
 const Banquets = () => {
   return (
@@ -35,7 +49,7 @@ const Banquets = () => {
       </section>
 
       {/* OVERVIEW SECTION */}
-      <section className="py-20 bg-cream">
+      <section className="pt-24 pb-10 bg-cream">
         <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-up">
             <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
@@ -62,21 +76,26 @@ const Banquets = () => {
 
           <div className="relative animate-fade-up">
             <img
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80"
+              src={banquet1}
               alt="Conference Hall"
               className="rounded-lg shadow-elegant w-full"
             />
           </div>
         </div>
+        <div
+          className="w-100 bg-repeat-x bg-contain h-[60px] mt-8"
+          style={{ backgroundImage: `url(${border})` }}
+        >
+    </div>
       </section>
 
 
       {/* BANQUET HALL DETAILS */}
-      <section className="py-20 bg-cream">
+      <section className="pb-10 bg-cream">
         <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-up">
             <img
-              src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=900&q=80"
+              src={banquet2}
               alt="Banquet Celebration"
               className="rounded-lg shadow-elegant w-full"
             />
@@ -102,11 +121,15 @@ const Banquets = () => {
             </ul>
           </div>
         </div>
+        <div
+          className="w-100 bg-repeat-x bg-contain h-[60px] mt-8"
+          style={{ backgroundImage: `url(${border})` }}
+        ></div>
       </section>
 
 
       {/* FEATURES SECTION */}
-      <section className="py-20 bg-jungle">
+      <section className="py-10 bg-jungle">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
             Facilities
@@ -146,6 +169,10 @@ const Banquets = () => {
             ))}
           </div>
         </div>
+        <div
+          className="w-100 bg-repeat-x bg-contain h-[60px] mt-8"
+          style={{ backgroundImage: `url(${border})` }}
+        ></div>
       </section>
 
       {/* GALLERY SECTION */}
@@ -160,10 +187,14 @@ const Banquets = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&q=80",
-              "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?w=600&q=80",
-              "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&q=80",
-              "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?w=600&q=80",
+              one,
+              two,
+              three,
+              five,
+              six,
+              seven,
+              eight,
+              nine,
             ].map((img, i) => (
               <img
                 key={i}

@@ -102,7 +102,7 @@ export const Navbar = () => {
             {/* CTA Button */}
             <div className="hidden lg:block">
               <Button asChild className="bg-gold hover:bg-jungle text-cream font-semibold">
-                <Link to="/contact">Book Now</Link>
+                <Link to="https://www.exceedsoftware.in/Website/Booking?hid=RjrVHq8mfWc%3d&pid=iyb5gHXOC8w%3d" target="_blank">Book Now</Link>
               </Button>
             </div>
 

@@ -2,6 +2,9 @@ import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle, Loader2 } from "lucide-react";
 import { useState } from "react";
+import border from "@/assets/images/borders/Border Pattern-02.png";
+import artrium from "@/assets/images/CORRIDORS/2.jpeg"
+
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -64,7 +67,7 @@ const Contact = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.7), rgba(26, 46, 26, 0.8)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80')`,
+            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.7), rgba(26, 46, 26, 0.8)), url(${artrium})`,
           }}
         />
         <div className="relative z-10 text-center px-4">
@@ -311,7 +314,7 @@ const Contact = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-cream">
+      <section className="pt-10 bg-cream">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
@@ -355,6 +358,10 @@ const Contact = () => {
             ))}
           </div>
         </div>
+        <div
+          className="w-100 bg-repeat-x bg-contain h-[60px] mt-10"
+          style={{ backgroundImage: `url(${border})` }}
+        ></div>
       </section>
     </Layout>
   );

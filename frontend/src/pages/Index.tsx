@@ -29,7 +29,6 @@ const Hero = () => (
       style={{ backgroundImage: `url(${Facade4})` }}
     />
     <div className="absolute inset-0 bg-gradient-to-t from-jungle/80 via-transparent to-transparent" />
-
     <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
       <p className="text-gold font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
         Welcome to
@@ -50,7 +49,7 @@ const Hero = () => (
           <Link to="/rooms">Explore Rooms</Link>
         </Button>
         <Button asChild size="lg" variant="outline" className="border-cream bg-cream text-gold hover:bg-gold hover:border-gold hover:text-cream">
-          <Link to="/contact">Book Your Stay</Link>
+          <Link to="https://www.exceedsoftware.in/Website/Booking?hid=RjrVHq8mfWc%3d&pid=iyb5gHXOC8w%3d" target="_blank">Book Your Stay</Link>
         </Button>
       </div>
     </div>
@@ -65,11 +64,11 @@ const Hero = () => (
 const AboutPreview = () => (
   <div>
     <div
-      className="w-100 bg-repeat-x bg-contain h-[60px]"
+      className="w-100 bg-repeat-x bg-contain h-[60px] mt-4"
       style={{ backgroundImage: `url(${border})` }}
     >
     </div>
-    <section className="py-24 bg-cream">
+    <section className="py-10 bg-cream">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative animate-fade-up">
@@ -83,7 +82,6 @@ const AboutPreview = () => (
               <p className="text-cream/80 text-sm">Years of care and commitment inspired by the spirit of <b> "अतिथि देवो भव" </b></p>
             </div>
           </div>
-
           <div className="animate-fade-up" style={{ animationDelay: "0.2s" }}>
             <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
               Our Story
@@ -117,6 +115,11 @@ const AboutPreview = () => (
         </div>
       </div>
     </section>
+    <div
+      className="w-100 bg-repeat-x bg-contain h-[60px] mt-4"
+      style={{ backgroundImage: `url(${border})` }}
+    >
+    </div>
   </div>
 );
 
@@ -131,7 +134,7 @@ const amenities = [
 ];
 
 const Amenities = () => (
-  <section className="pt-24 pb-16 bg-jungle">
+  <section className="pt-24 pb-1 bg-jungle">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
@@ -142,7 +145,7 @@ const Amenities = () => (
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
         {amenities.map((amenity, index) => (
           <div
             key={index}
@@ -177,14 +180,14 @@ const rooms = [
   },
   {
     name: "Ivy Executive Rooms",
-    image: ivyExecutive2,
+    image: king1,
     description: "Well-appointed room category sized ~240 sq ft, featuring either a cosy king bed or twin beds with city views.",
     capacity: "2 Adults + 1 Child",
-    size: "550 sq ft"
+    size: "240 sq ft"
   },
   {
     name: "Ivy Premier Rooms",
-    image: king1,
+    image: ivyExecutive2,
     description: "A spacious room covering approximately 306 sq ft, thoughtfully designed with plush king or twin bed options and refined interiors.",
     capacity: "2 Adults + 1 Child",
     size: "306 sq ft"
@@ -192,7 +195,7 @@ const rooms = [
 ];
 
 const RoomsPreview = () => (
-  <section className="py-24 bg-cream">
+  <section className="py-10 bg-cream">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
@@ -245,6 +248,11 @@ const RoomsPreview = () => (
         </Button>
       </div>
     </div>
+    <div
+      className="w-100 bg-repeat-x bg-contain h-[60px] mt-10"
+      style={{ backgroundImage: `url(${border})` }}
+    >
+    </div>
   </section>
 );
 
@@ -277,7 +285,7 @@ const Testimonials = () => {
   const prev = () => setCurrent((prev) => (prev - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <section className="py-24 bg-white">
+    <section className="pt-10 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
@@ -321,6 +329,11 @@ const Testimonials = () => {
             </button>
           </div>
         </div>
+      </div>
+      <div
+        className="w-100 bg-repeat-x bg-contain h-[60px] mt-10"
+        style={{ backgroundImage: `url(${border})` }}
+      >
       </div>
     </section>
   );

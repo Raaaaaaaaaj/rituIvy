@@ -3,12 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowDown } from "lucide-react";
 import Facade1 from "@/assets/images/facade/Pathway1.jpg";
+import border from "@/assets/images/borders/Border Pattern-02.png";
+
 
 const FAQs = () => {
   return (
     <Layout>
         {/* FAQ Section */}
-      <section className="py-20 bg-cream">
+      <section className="py-10 bg-cream">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
@@ -72,6 +74,10 @@ const FAQs = () => {
             ))}
           </div>
         </div>
+        <div
+        className="w-100 bg-repeat-x bg-contain h-[60px] mt-10"
+        style={{ backgroundImage: `url(${border})` }}
+      ></div>
       </section>
     </Layout>
   );

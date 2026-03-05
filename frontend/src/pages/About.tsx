@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Leaf, Heart, Shield, Users, Award, TreePine } from "lucide-react";
 import border from "@/assets/images/borders/Border Pattern-02.png";
+import border2 from "@/assets/images/borders/Border Pattern-04.png";
+import corridor from "@/assets/images/CORRIDORS/1.JPG";
+import corridor2 from "@/assets/images/CORRIDORS/_MG_7213.JPG";
 
 const About = () => {
   return (
@@ -12,7 +15,7 @@ const About = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.6), rgba(26, 46, 26, 0.8)), url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&q=80')`,
+            backgroundImage: `linear-gradient(to bottom, rgba(26, 46, 26, 0.6), rgba(26, 46, 26, 0.8)), url(${corridor})`,
           }}
         />
         <div className="relative z-10 text-center px-4">
@@ -28,7 +31,7 @@ const About = () => {
         </div>
       </section>
       <div
-        className="w-100 bg-repeat-x bg-contain h-[60px]"
+        className="w-100 bg-repeat-x bg-contain h-[60px] mt-5"
         style={{ backgroundImage: `url(${border})` }}
       >
       </div>
@@ -38,7 +41,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative animate-fade-up">
               <img
-                src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80"
+                src={corridor2}
                 alt="Resort exterior"
                 className="rounded-lg shadow-elegant w-full"
               />
@@ -52,7 +55,7 @@ const About = () => {
                 Our Journey
               </p>
               <h2 className="font-display text-4xl md:text-5xl text-jungle mb-6">
-                A story of Trusted Hospitality inspired by the spirit of:  <br /> "Atithi Debo Bhava".
+                A story of Trusted Hospitality inspired by the spirit of:  <br /> "Atithi Devo Bhava".
               </h2>
               <p className="text-earth mb-6 leading-relaxed">
                 Hotel Ritu Ivy was founded with a simple vision - to create a welcoming space where guests feel genuinely cared for. Over the years we have grown into a trusted 36-room hotel in Kolkata, known for comfortable stays and well-managed celebration.
@@ -65,6 +68,11 @@ const About = () => {
         </div>
       </section>
       {/* Mission & Vision */}
+      <div
+        className="w-100 bg-repeat-x bg-contain h-[60px] mt-5"
+        style={{ backgroundImage: `url(${border})` }}
+      >
+      </div>
       <section className="py-20 bg-jungle">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12">
@@ -90,7 +98,7 @@ const About = () => {
         </div>
       </section>
       {/* Values */}
-      {<section className="py-20 bg-white">
+      {<section className="pt-10 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-gold font-medium tracking-[0.2em] uppercase mb-2">
@@ -136,6 +144,11 @@ const About = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div
+          className="w-100 bg-repeat-x bg-contain h-[60px] mt-5"
+          style={{ backgroundImage: `url(${border})` }}
+        >
         </div>
       </section>}
       {/* Timeline */}

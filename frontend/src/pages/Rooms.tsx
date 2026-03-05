@@ -80,13 +80,13 @@ const Rooms = () => {
       </section> */}
 
       <div
-        className="w-100 bg-repeat-x bg-contain h-[60px]"
+        className="w-100 bg-repeat-x bg-contain h-[60px] mt-10"
         style={{ backgroundImage: `url(${border})` }}
       >
       </div>
 
       {/* Rooms Grid */}
-      <section className="py-20">
+      <section className="py-10">
         <div className="container mx-auto px-4">
           {rooms.map((room, index) => (
             <div
@@ -142,6 +142,12 @@ const Rooms = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div
+          className="w-100 bg-repeat-x bg-contain h-[60px] mt-10"
+          style={{ backgroundImage: `url(${border})` }}
+        >
         </div>
       </section>
 
