@@ -19,6 +19,7 @@ import ivyPremier from "@/assets/images/EXECUTIVE TWIN/002.jpg"
 import ivyExecutive2 from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
 import king1 from "@/assets/images/IVY KING/002.jpg";
 import logoFont from "@/assets/images/Logos/logoFont.png";
+import logoFont2 from "@/assets/images/Logos/newLogo.png";
 
 // Hero Section
 const Hero = () => (
@@ -29,7 +30,7 @@ const Hero = () => (
     />
     <div className="absolute inset-0 bg-gradient-to-t from-jungle/80 via-transparent to-transparent" />
     <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-      <p className="text-gold font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
+      <p className="text-cream font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
         Welcome to
       </p>
       <h1
@@ -40,9 +41,9 @@ const Hero = () => (
 
         <Link to="/" className="flex items-center">
           <img
-            src={logoFont}
+            src={logoFont2}
             alt="Hotel ABC Logo"
-            className="h-12 md:h-16 lg:h-20 xl:h-20 w-auto object-contain"
+            className="h-12 md:h-16 lg:h-20 xl:h-40 w-auto object-contain"
             onError={(e) => console.log("Image failed to load", e)}
           />
         </Link>

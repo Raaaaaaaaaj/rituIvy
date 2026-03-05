@@ -3,6 +3,8 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react
 import borderpattern1 from "@/assets/images/borders/Border Pattern-02.png";
 import logo from "@/assets/images/Logos/Logo-03.png";
 import border from "@/assets/images/borders/Border Pattern-02.png";
+import logoFont2 from "@/assets/images/Logos/newLogo.png";
+
 
 export const Footer = () => {
   return (
@@ -13,11 +15,11 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-28 h-28 rounded-full flex items-center justify-center">
+              <div className="w-36 h-36 flex items-center justify-center">
                 <img
                   src={logo}
                   alt="Hotel ABC Logo"
-                  className="w-24 h-24 object-contain"
+                  className="w-32 h-32 object-contain"
                   onError={(e) => console.log("Image failed to load", e)}
                 />
               </div>
