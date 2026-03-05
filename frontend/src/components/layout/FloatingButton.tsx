@@ -4,75 +4,88 @@ export const FloatingButtons = () => {
 
       {/* Facebook */}
       <a
-        href="https://facebook.com/yourpage"
+        href="https://www.facebook.com/share/1MpgN1P787/?mibextid=wwXIfr"
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex items-center bg-jungle text-white p-3 rounded-full shadow-lg transition border-2 border-cream"
+        className="group relative flex items-center bg-jungle text-white p-3 rounded-full shadow-lg border-2 border-cream"
       >
-        <span className="hidden md:block opacity-1 transition">
-          <i className="fa-brands fa-square-facebook text-cream"></i>
+        <i className="fa-brands fa-square-facebook text-cream"></i>
+
+        <span className="absolute right-14 bg-jungle text-cream text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+          Facebook
         </span>
       </a>
 
       {/* Instagram */}
       <a
-        href="https://facebook.com/yourpage"
+        href="https://www.instagram.com/hotelrituivy"
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex items-center bg-jungle text-white p-3 rounded-full shadow-lg transition border-2 border-cream"
+        className="group relative flex items-center bg-jungle text-white p-3 rounded-full shadow-lg border-2 border-cream"
       >
-        <span className="hidden md:block opacity-1 group-hover:opacity-100 transition">
-          <i className="fa-brands fa-instagram text-cream"></i>
+        <i className="fa-brands fa-instagram text-cream"></i>
+
+        <span className="absolute right-14 bg-jungle text-cream text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+          Instagram
         </span>
       </a>
 
-      {/* Google Map */}
+      {/* LinkedIn */}
       <a
-        href="https://facebook.com/yourpage"
+        href="https://www.linkedin.com/company/rituivyhotel"
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex items-center bg-jungle text-white p-3 rounded-full shadow-lg transition border-2 border-cream" 
+        className="group relative flex items-center bg-jungle text-white p-3 rounded-full shadow-lg border-2 border-cream"
       >
-        <span className="hidden md:block opacity-1 group-hover:opacity-100 transition">
-          <i className="fa-solid fa-map-pin text-cream"></i>
+        <i className="fa-brands fa-linkedin text-cream"></i>
+
+        <span className="absolute right-14 bg-jungle text-cream text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+          LinkedIn
         </span>
       </a>
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/919051610335"
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex items-center bg-jungle text-white p-3 rounded-full shadow-lg transition border-2 border-cream"
+        className="group relative flex items-center bg-jungle text-white p-3 rounded-full shadow-lg border-2 border-cream"
       >
-        <span className="hidden md:block opacity-1 group-hover:opacity-100 transition">
-          <i className="fa-brands fa-whatsapp text-cream"></i>
+        <i className="fa-brands fa-whatsapp text-cream"></i>
+
+        <span className="absolute right-14 bg-jungle text-cream text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+          WhatsApp
         </span>
       </a>
 
       {/* Corporate Queries */}
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/919051610335"
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex items-center bg-jungle text-white p-3 rounded-full shadow-lg transition border-2 border-cream"
+        className="group relative flex items-center bg-jungle text-white p-3 rounded-full shadow-lg border-2 border-cream"
       >
-        <span className="hidden md:block opacity-1 group-hover:opacity-100 transition">
-          <i className="fa-solid fa-circle-question text-cream"></i>
+        <i className="fa-solid fa-circle-question text-cream"></i>
+
+        <span className="absolute right-14 bg-jungle text-cream text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+          Corporate Queries
         </span>
       </a>
-      
-      {/* Wedding / Bulk Booking */}
+
+      {/* Wedding Booking */}
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/919051610335"
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex items-center bg-jungle text-white p-3 rounded-full shadow-lg transition border-2 border-cream"
+        className="group relative flex items-center bg-jungle text-white p-3 rounded-full shadow-lg border-2 border-cream"
       >
-        <span className="hidden md:block opacity-1 group-hover:opacity-100 transition">
-          <i className="fa-regular fa-calendar text-cream"></i>
+        <i className="fa-regular fa-calendar text-cream"></i>
+
+        <span className="absolute right-14 bg-jungle text-cream text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+          Wedding / Bulk Booking
         </span>
       </a>
+
     </div>
   );
 };

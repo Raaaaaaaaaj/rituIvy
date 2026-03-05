@@ -18,8 +18,7 @@ import ivyExecutive from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
 import ivyPremier from "@/assets/images/EXECUTIVE TWIN/002.jpg"
 import ivyExecutive2 from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
 import king1 from "@/assets/images/IVY KING/002.jpg";
-
-
+import logoFont from "@/assets/images/Logos/logoFont.png";
 
 // Hero Section
 const Hero = () => (
@@ -33,11 +32,20 @@ const Hero = () => (
       <p className="text-gold font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
         Welcome to
       </p>
-      <h1 className="font-display text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-cream mb-6 leading-tight animate-fade-up" style={{ animationDelay: "0.1s" }}>
-        Hotel{" "}
-        <span className="bg-gradient-to-r from-gold to-gold-light bg-clip-text text-transparent">
-          Ritu Ivy
-        </span>
+      <h1
+        className="font-display text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-cream mb-6 leading-tight animate-fade-up flex items-center justify-center gap-4"
+        style={{ animationDelay: "0.1s" }}
+      >
+        {/* <span>Hotel</span> */}
+
+        <Link to="/" className="flex items-center">
+          <img
+            src={logoFont}
+            alt="Hotel ABC Logo"
+            className="h-12 md:h-16 lg:h-20 xl:h-20 w-auto object-contain"
+            onError={(e) => console.log("Image failed to load", e)}
+          />
+        </Link>
       </h1>
       <p className="text-cream text-lg md:text-xl max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
         A homely stay, a seamless experience.

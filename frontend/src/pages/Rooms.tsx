@@ -137,7 +137,7 @@ const Rooms = () => {
                 </div>
 
                 <Button asChild className="bg-jungle hover:bg-jungle-light text-cream">
-                  <Link to="/contact">Book This Room</Link>
+                  <Link to="https://www.exceedsoftware.in/Website/Booking?hid=RjrVHq8mfWc%3d&pid=iyb5gHXOC8w%3d" target="_blank">Book This Room</Link>
                 </Button>
               </div>
             </div>

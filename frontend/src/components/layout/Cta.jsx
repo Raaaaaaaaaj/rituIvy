@@ -31,7 +31,7 @@ export const CTA = () => {
               <Link to="https://www.exceedsoftware.in/Website/Booking?hid=RjrVHq8mfWc%3d&pid=iyb5gHXOC8w%3d" target="_blank">Reserve Now</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-jungle text-jungle hover:bg-jungle/100 hover:text-cream">
-              <a href="tel:0000000000">
+              <a href="tel:913324414444">
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us
               </a>
