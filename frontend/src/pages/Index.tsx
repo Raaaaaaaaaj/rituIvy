@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import {
   Wifi, UtensilsCrossed, Car, TreePine, Waves, Shield,
   Star, Users, Maximize, ChevronLeft, ChevronRight, ArrowDown,
-  Phone, MapPin, Quote
+  Phone, MapPin, Quote, Landmark, BatteryCharging, MonitorCheck
 } from "lucide-react";
 import Facade1 from "@/assets/images/facade/facade-1.jpg";
 import Facade2 from "@/assets/images/facade/2017-08-01-PHOTO-00000344.jpg";
@@ -51,7 +51,7 @@ const Hero = () => (
       <p className="text-cream text-lg md:text-xl max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
         A homely stay, a seamless experience.
         <br />
-        Experience thoughtfully designed rooms, dependable service and versatile event spaces, in the heart of kolkata.
+        Experience thoughtfully designed rooms, dependable service and versatile event spaces, in the heart of Kolkata.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
         <Button asChild size="lg" className="bg-gold hover:bg-gold-dark text-cream hover:border-cream hover:bg-cream hover:text-gold font-semibold px-8">
@@ -136,9 +136,9 @@ const AboutPreview = () => (
 const amenities = [
   { icon: Wifi, title: "Free WiFi", description: "High-speed internet throughout" },
   { icon: UtensilsCrossed, title: "Multi-Cuisine Restaurant", description: "Local & international flavors" },
-  { icon: Car, title: "Elegant Banquet Spaces", description: "Ideal for weddings, corporate meetings & celebrations" },
-  { icon: TreePine, title: "24x7 Front Desk", description: "Round the clock assistance for a smooth stay" },
-  { icon: Waves, title: "Power Backup", description: "Ensuring your comform is never interrupted" },
+  { icon: Landmark, title: "Elegant Banquet Spaces", description: "Ideal for weddings, corporate meetings & celebrations" },
+  { icon: MonitorCheck, title: "24x7 Front Desk", description: "Round the clock assistance for a smooth stay" },
+  { icon: BatteryCharging, title: "Power Backup", description: "Ensuring your comfort is never interrupted" },
   { icon: Shield, title: "24/7 Security", description: "Round-the-clock protection" },
 ];
 

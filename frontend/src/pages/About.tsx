@@ -91,7 +91,7 @@ const About = () => {
               </div>
               <h3 className="font-display text-3xl text-gold mb-4">Our Vision</h3>
               <p className="text-gold leading-relaxed">
-                To be recognised as one of Kolkata's most trusted budget hotel brand known for dependable service, personal atention and seamless event and stay experience.
+                To be recognised as one of Kolkata's most trusted budget hotel brand known for dependable service, personal attention and seamless event and stay experience.
               </p>
             </div>
           </div>

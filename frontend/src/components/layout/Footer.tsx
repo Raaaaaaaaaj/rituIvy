@@ -27,7 +27,7 @@ export const Footer = () => {
               </div>
             </div>
             <p className="text-jungle/100 mb-6 textBodoniMedium">
-              Hotel Ritu Ivy is an independantly managed hotel in Kolkata, offering comfrotable rooms & thoghtfully managed banquet spaces. We take pride in providing warm hospitality & dependable service for every guest.
+              Hotel Ritu Ivy is an independently managed hotel in Kolkata, offering comfortable rooms & thoughtfully managed banquet spaces. We take pride in providing warm hospitality & dependable service for every guest.
             </p>
             <div className="flex gap-4">
               <a href="https://www.facebook.com/share/1MpgN1P787/?mibextid=wwXIfr" className="w-10 h-10 bg-jungle/10 rounded-full flex items-center justify-center hover:bg-gold hover:text-jungle transition-all">
