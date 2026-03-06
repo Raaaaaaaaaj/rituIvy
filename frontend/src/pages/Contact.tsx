@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, MapPin, Clock, Send, MessageCircle, Loader2 } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Send, Loader2 } from "lucide-react";
 import { useState } from "react";
 import border from "@/assets/images/borders/Border Pattern-02.png";
 import artrium from "@/assets/images/CORRIDORS/2.jpeg"
@@ -329,7 +329,7 @@ const Contact = () => {
             {[
               {
                 question: "How do I make a reservation?",
-                answer: "You can dirtectly contact us via email id or phone for reservation. Also you can book from our website itself. It has a booking system integrated in it.",
+                answer: "You can directly contact us via email id or phone for reservation. You can also book from our website itself. It has a booking system integrated in it.",
               },
               {
                 question: "Is parking available at the hotel?",

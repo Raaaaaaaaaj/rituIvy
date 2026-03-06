@@ -39,7 +39,7 @@ export const CTA = () => {
           </div>
           <div className="flex items-center justify-center gap-2 text-cream">
             <MapPin className="w-5 h-5" />
-            <span>Near GST bhavan, Kolkata</span>
+            <span>Near GST Bhavan, Kolkata</span>
           </div>
         </div>
       </div>

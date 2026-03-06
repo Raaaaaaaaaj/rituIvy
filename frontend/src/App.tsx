@@ -14,6 +14,7 @@ import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsandConditions from "./pages/TermsandConditions";
 import NotFound from "./pages/NotFound";
+import Cancellation from "./pages/Cancellation.jsx"
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/termsandconditions" element={<TermsandConditions />} />
+          <Route path="/booking-policies" element={< Cancellation />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

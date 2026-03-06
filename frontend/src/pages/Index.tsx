@@ -2,23 +2,18 @@ import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import {
-  Wifi, UtensilsCrossed, Car, TreePine, Waves, Shield,
+  Wifi, UtensilsCrossed, Shield,
   Star, Users, Maximize, ChevronLeft, ChevronRight, ArrowDown,
   Phone, MapPin, Quote, Landmark, BatteryCharging, MonitorCheck
 } from "lucide-react";
-import Facade1 from "@/assets/images/facade/facade-1.jpg";
 import Facade2 from "@/assets/images/facade/2017-08-01-PHOTO-00000344.jpg";
 import Facade3 from "@/assets/images/facade/Pathway4.jpg";
 import Facade4 from "@/assets/images/facade/facade_new.png";
 import { useState } from "react";
 import border from "@/assets/images/borders/Border Pattern-02.png";
-import { url } from "inspector";
 import ivySolo from "@/assets/images/IVY SOLO/2017-08-01-PHOTO-00000361.jpg"
-import ivyExecutive from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
-import ivyPremier from "@/assets/images/EXECUTIVE TWIN/002.jpg"
 import ivyExecutive2 from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
 import king1 from "@/assets/images/IVY KING/002.jpg";
-import logoFont from "@/assets/images/Logos/logoFont.png";
 import logoFont2 from "@/assets/images/Logos/newLogo.png";
 
 // Hero Section
@@ -99,9 +94,9 @@ const AboutPreview = () => (
               Built On Care. <br /> Driven By Hospitality
             </h2>
             <p className="text-earth mb-6 leading-relaxed">
-              Hotel Ritu Ivy is a thoughtfully managed 36-rooms property in Kokata, offering comfortable stays and well curated banquet spaces under one roof.
+              Hotel Ritu Ivy is a thoughtfully managed 36-rooms property in Kolkata, offering comfortable stays and well curated banquet spaces under one roof.
               <br /> <br />
-              With over 7 years of experiece in hosting travellers & celebrations alike, we combine structure service with a warm, personal approcah, ensuring every guest feels valued.
+              With over 7 years of experience in hosting travellers & celebrations alike, we combine structured service with a warm, personal approach, ensuring every guest feels valued.
             </p>
             <div className="grid grid-cols-3 gap-6 mb-8">
               <div className="text-center">
@@ -183,14 +178,14 @@ const rooms = [
   {
     name: "Ivy Solo Rooms",
     image: ivySolo,
-    description: "A cosy room designed for solo travellers, offering comfort and modern essentials for a relaxing stay in Kolkata.",
+    description: "A cozy room designed for solo travellers, offering comfort and modern essentials for a relaxing stay in Kolkata.",
     capacity: "1 Adult",
     size: "168 sq ft"
   },
   {
     name: "Ivy Executive Rooms",
     image: king1,
-    description: "Well-appointed room category sized ~240 sq ft, featuring either a cosy king bed or twin beds with city views.",
+    description: "Well-appointed room category sized ~240 sq ft, featuring either a cozy king bed or twin beds with city views.",
     capacity: "2 Adults + 1 Child",
     size: "240 sq ft"
   },
@@ -284,6 +279,30 @@ const testimonials = [
     location: "Kolkata",
     rating: 5,
     text: "We had a very pleasant stay at the hotel. The staff were very polite and helpful. The rooms were great and the hotel is located at prime location just behind the GST Bhawan. We stayed there for 3 nights and had a wonderful experience. The complementary breakfast is very good plus the food quality and quantity both are just perfect.",
+  },
+  {
+    name: "Ashok Ghoshal",
+    location: "Kolkata",
+    rating: 5,
+    text: "I had booked both the Banquet Halls in the hotel for my daughter's wedding for two days in the month of January 25. Both the Banquet Halls were excellent especially the one on the 6th floor. I am grateful to the owner Mr Aryan Chawla who was very polite and courteous and helped us in all matters right from the time of booking the venue a year ago. Food was delicious and in abundance, all my guests liked all menu items including sweet dish. Mr Sandeep and his staff managed the show very well and was ready to help when required. All the functions of the marriage went off very smoothly till bidai. Location was an added feature of the venue with plenty of parking space for the guests. In all it was fantastic experience and I recommend this hotel for all functions.",
+  },
+  {
+    name: "Pritha Bose",
+    location: "Kolkata",
+    rating: 5,
+    text: "We had an extremely pleasant experience staying at Ritu Ivy. The staff are super courteous and helpful. The food is amazing. We also hosted our Sangeet at the banquet, all arrangements were very professionally made. Would recommend the place for anyone looking to book rooms/ banquets, be it solo or for a group.",
+  },
+  {
+    name: "Arindam Ganguly",
+    location: "Kolkata",
+    rating: 5,
+    text: "Make my Dream event beyond expectation , Five star is not enough to rate each of hotel staff in service , brotherly like manager , Mr Sandeep , excellent delicious food by chef and without whom it could not be concluded ...Mr Chawla , the great cordiality , great arrangement and man of word , hardly found . Thanks & ever obliged to make my dream true .rgds",
+  },
+  {
+    name: "Raj Handique",
+    location: "Mumbai",
+    rating: 5,
+    text: "It was an awesome experience to stay and reside in this hotel. Everything from the quality of food, room aesthetic, service and location not way too far from airport as compared in a big metro city. Good stay for any kind of hospital visit, going around to visit iconic places in the city and other academic work. Everything was near perfect. It is economic for a 3-4 day stay. Don't listen to anyone complaining insignificant things.",
   },
 ];
 

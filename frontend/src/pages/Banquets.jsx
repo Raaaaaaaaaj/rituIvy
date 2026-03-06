@@ -1,6 +1,4 @@
 import { Layout } from "@/components/layout/Layout";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import reception1 from "@/assets/images/reception/_MG_7304.JPG"
 import banquet1 from "@/assets/images/BanquetsAndConference/banquet2.jpeg"
 import banquet2 from "@/assets/images/BanquetsAndConference/banquet1.jpeg"
@@ -8,13 +6,11 @@ import border from "@/assets/images/borders/Border Pattern-02.png";
 import one from "@/assets/images/BanquetsAndConference/1.jpeg";
 import two from "@/assets/images/BanquetsAndConference/2.jpeg"; 
 import three from "@/assets/images/BanquetsAndConference/3.jpeg"; 
-import four from "@/assets/images/BanquetsAndConference/4.jpeg"; 
 import five from "@/assets/images/BanquetsAndConference/5.jpeg";
 import six from "@/assets/images/BanquetsAndConference/6.jpeg"; 
 import seven from "@/assets/images/BanquetsAndConference/7.jpeg"; 
 import eight from "@/assets/images/BanquetsAndConference/8.jpeg"; 
 import nine from "@/assets/images/BanquetsAndConference/9.jpeg"; 
-import ten from "@/assets/images/BanquetsAndConference/10.jpeg"; 
 
 
 const Banquets = () => {
@@ -70,7 +66,7 @@ const Banquets = () => {
               <li>• Fully air-conditioned hall</li>
               <li>• Custom seating & stage arrangements</li>
               <li>• Dedicated event coordination team</li>
-              <li>• Curated meanus for all occassions</li>
+              <li>• Curated menus for all occassions</li>
             </ul>
           </div>
 

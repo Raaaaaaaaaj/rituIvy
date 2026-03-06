@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowDown } from "lucide-react";
 import Facade1 from "@/assets/images/facade/Pathway1.jpg";
-import { useState } from "react";
 
 const Restaurant = () => {
   const features = ["Premium Ingredients", "Elegant Interior", "Personalized Service"];

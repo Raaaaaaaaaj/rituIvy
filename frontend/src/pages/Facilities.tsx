@@ -1,15 +1,11 @@
 import { Layout } from "@/components/layout/Layout";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-import { MapPin, Phone } from "lucide-react";
-import Facade3 from "@/assets/images/facade/Pathway4.jpg";
 import Facade4 from "@/assets/images/facade/facade_new.png";
 import border from "@/assets/images/borders/Border Pattern-02.png";
 
 const facilities = [
   {
     id: 1,
-    name: "Comfortable and well appointed rooms ",
+    name: "Comfortable and well-appointed rooms ",
     description: "Experience guest rooms designed with modern aesthetics and practical amenities for a restful stay. Each space is thoughtfully furnished to provide a productive and relaxing environment for every traveler."
   },
   {
@@ -24,12 +20,12 @@ const facilities = [
   },
   {
     id: 4,
-    name: "Banquet / Conference Hall 2200 sq ft",
+    name: "Banquet / Conference Hall 2,200 sq. ft.",
     description: "Host your corporate seminars and private functions in our professional 2,200 sq. ft. indoor venue. The hall is equipped with modern facilities to ensure your meetings and events run smoothly and efficiently.",
   },
   {
     id: 5,
-    name: "Semi Open Air Banquet Hall - 3000 sq ft",
+    name: "Semi Open Air Banquet Hall - 3,000 sq. ft.",
     description: "Utilize our expansive 3,000 sq. ft. semi-outdoor space for larger gatherings and networking events. The open-air design offers a refreshing atmosphere while providing full coverage and modern amenities.",
   },
   {
@@ -72,7 +68,7 @@ const Facilities = () => {
             Facilities
           </h1>
           <p className="text-cream text-lg max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Everything you need for a related and will managed stay
+            Everything you need for a relaxed and well-managed stay
           </p>
         </div>
       </section>

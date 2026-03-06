@@ -1,8 +1,4 @@
 import { Layout } from "@/components/layout/Layout";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-import { ArrowDown } from "lucide-react";
-import Facade1 from "@/assets/images/facade/Pathway1.jpg";
 import border from "@/assets/images/borders/Border Pattern-02.png";
 
 
@@ -29,7 +25,7 @@ const FAQs = () => {
               },
               {
                 question: "Is breakfast included in the room tariff?",
-                answer: "Yes, Breakfast is included with selected room plans. Please refer to your booking details for confirmation.",
+                answer: "Yes, breakfast is included with selected room plans. Please refer to your booking details for confirmation.",
               },
               {
                 question: "Is parking available at the hotel?",
@@ -45,7 +41,7 @@ const FAQs = () => {
               },
               {
                 question: "Do you have banquet or conference facilities?",
-                answer: "Yes, we offer a 2200 sq ft banquet/conference hall and a 3000 sq ft semi open-air banquet space, suitable for corporate and social events.",
+                answer: "Yes, we offer a 2,200 sq. ft. banquet/conference hall and a 3,000 sq. ft. semi open-air banquet space, suitable for corporate and social events.",
               },
               {
                 question: "Is early check-in or late check-out available?",

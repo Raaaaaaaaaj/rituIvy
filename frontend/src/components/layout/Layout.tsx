@@ -13,7 +13,8 @@ export const Layout = ({ children }: LayoutProps) => {
   const isRestaurantPage = location.pathname.includes("restaurants");
   const isPrivacyPage = location.pathname.includes("privacy-policy");
   const isTermsPage = location.pathname.includes("termsandconditions");
-  const hiddenStandardCTA = isRestaurantPage || isPrivacyPage || isTermsPage;
+  const isBookingPolicyPage = location.pathname.includes("booking-policies")
+  const hiddenStandardCTA = isRestaurantPage || isPrivacyPage || isTermsPage || isBookingPolicyPage;
 
   return (
     <div className="min-h-screen flex flex-col">

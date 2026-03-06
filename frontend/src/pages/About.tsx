@@ -1,9 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import { Leaf, Heart, Shield, Users, Award, TreePine } from "lucide-react";
 import border from "@/assets/images/borders/Border Pattern-02.png";
-import border2 from "@/assets/images/borders/Border Pattern-04.png";
 import corridor from "@/assets/images/CORRIDORS/1.JPG";
 import corridor2 from "@/assets/images/CORRIDORS/_MG_7213.JPG";
 

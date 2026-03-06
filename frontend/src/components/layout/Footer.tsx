@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
-import borderpattern1 from "@/assets/images/borders/Border Pattern-02.png";
 import logo from "@/assets/images/Logos/Logo-03.png";
 import border from "@/assets/images/borders/Border Pattern-02.png";
-import logoFont2 from "@/assets/images/Logos/newLogo.png";
 
 
 export const Footer = () => {
@@ -67,7 +65,7 @@ export const Footer = () => {
           </div>
 
           {/* Experiences */}
-          <div>
+          {/* <div>
             <h4 className="font-display text-xl mb-6 text-gold">More Links</h4>
             <ul className="space-y-3 textBodoniMedium">
               {[
@@ -85,6 +83,31 @@ export const Footer = () => {
                   >
                     <span className="w-1.5 h-1.5 bg-gold/100 rounded-full" />
                     {item}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div> */}
+          <div>
+            <h4 className="font-display text-xl mb-6 text-gold">More Links</h4>
+
+            <ul className="space-y-3 textBodoniMedium">
+              {[
+                { name: "Banquets & Conference Halls", path: "/banquets" },
+                { name: "Restaurant", path: "/restaurants" },
+                { name: "FAQs", path: "/faqs" },
+                { name: "Terms & Conditions", path: "/termsandconditions" },
+                { name: "Privacy Policy", path: "/privacy-policy" },
+                { name: "Booking & Cancellation Policies", path: "/booking-policies" },
+                { name: "Careers", path: "/careers" },
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link
+                    to={item.path}
+                    className="text-jungle/100 hover:text-gold transition-colors inline-flex items-center gap-2"
+                  >
+                    <span className="w-1.5 h-1.5 bg-gold/100 rounded-full" />
+                    {item.name}
                   </Link>
                 </li>
               ))}
