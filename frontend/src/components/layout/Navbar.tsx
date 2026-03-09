@@ -55,7 +55,7 @@ export const Navbar = () => {
       {/* Main Navbar */}
       <header
         className={cn(
-          "sticky top-0 z-5 transition-all duration-300",
+          "sticky top-0 z-50 transition-all duration-300",
           isScrolled
             ? "bg-white/95 backdrop-blur-md shadow-elegant"
             : "bg-transparent"
@@ -122,7 +122,7 @@ export const Navbar = () => {
         {/* Mobile Menu */}
         <div
           className={cn(
-            "lg:hidden absolute top-full left-0 right-0 bg-white shadow-elegant transition-all duration-300",
+            "lg:hidden absolute top-full left-0 right-0 bg-white shadow-elegant transition-all duration-300 z-[60]",
             isMobileMenuOpen
               ? "opacity-100 visible translate-y-0"
               : "opacity-0 invisible -translate-y-4"
