@@ -104,7 +104,7 @@ export const GuaranteedLowestPricePopup = () => {
 
               <p className="mt-4 text-center text-[11px] text-gray-400">
   * <a 
-      href="/termsandconditions" 
+      href="/offertermsandconditions" 
       target="_blank" 
       rel="noopener noreferrer"
       className="underline hover:text-[#b28e2d] transition-colors"
