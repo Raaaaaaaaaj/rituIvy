@@ -2,7 +2,20 @@ import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowDown } from "lucide-react";
-import Facade1 from "@/assets/images/facade/Pathway1.jpg";
+import restro1 from "@/assets/images/Restro/restro1.webp"
+import restro2 from "@/assets/images/Restro/restro2.webp"
+import food1 from "@/assets/images/Restro/food1.webp"
+import food2 from "@/assets/images/Restro/food2.webp"
+import food3 from "@/assets/images/Restro/food3.webp"
+import food4 from "@/assets/images/Restro/food4.webp"
+import food5 from "@/assets/images/Restro/food5.webp"
+import food6 from "@/assets/images/Restro/food6.webp"
+import food7 from "@/assets/images/Restro/food7.webp"
+import food8 from "@/assets/images/Restro/food8.webp"
+import food9 from "@/assets/images/Restro/food9.webp"
+import food10 from "@/assets/images/Restro/food10.webp"
+import food11 from "@/assets/images/Restro/food11.webp"
+import food12 from "@/assets/images/Restro/food12.webp"
 
 const Restaurant = () => {
   const features = ["Premium Ingredients", "Elegant Interior", "Personalized Service"];
@@ -11,28 +24,25 @@ const Restaurant = () => {
       <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${Facade1})` }}
+          style={{ backgroundImage: `url(${restro1})` }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-jungle/80 via-transparent to-transparent" />
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-          <p className="text-gold font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
-            Welcome to the Experience
+          <p className="text-cream/90 font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
+            Welcome to
           </p>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-cream mb-6 leading-tight animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Hotel{" "}
+            The{" "}
             <span className="bg-gradient-to-r from-gold to-gold-light bg-clip-text text-transparent">
-              Ritu Ivy
+              Ivy Parlour
             </span>
           </h1>
           <p className="text-cream/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Experience royal luxury and tranquility in an atmosphere of refined elegance and comfort.
+            A calm and welcoming dining space where mornings begin comfortably and good food is crafted with care.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <Button asChild size="lg" className="bg-gold hover:bg-gold-dark text-jungle font-semibold px-8">
-              <Link to="/rooms">Explore Rooms</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-cream text-cream hover:bg-cream/10">
-              <Link to="/contact">Book Your Stay</Link>
+            <Button asChild size="lg" className="bg-gold hover:bg-gold-dark text-cream hover:border-cream hover:bg-cream hover:text-gold font-semibold px-8">
+              <Link to="/rooms">Book Your Table</Link>
             </Button>
           </div>
         </div>
@@ -46,7 +56,7 @@ const Restaurant = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative animate-fade-up">
               <img
-                src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80"
+                src={restro2}
                 alt="Resort exterior"
                 className="rounded-lg shadow-elegant w-full"
               />
@@ -89,12 +99,18 @@ const Restaurant = () => {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {[
-              "https://images.arla.com/recordid/C10F7939-84FD-4C67-A2229335AD6F3978/chicken-kebab1.jpg?format=jpg&width=1200&height=630&mode=crop",
-              "https://images.arla.com/recordid/C10F7939-84FD-4C67-A2229335AD6F3978/chicken-kebab1.jpg?format=jpg&width=1200&height=630&mode=crop",
-              "https://images.arla.com/recordid/C10F7939-84FD-4C67-A2229335AD6F3978/chicken-kebab1.jpg?format=jpg&width=1200&height=630&mode=crop",
-              "https://images.arla.com/recordid/C10F7939-84FD-4C67-A2229335AD6F3978/chicken-kebab1.jpg?format=jpg&width=1200&height=630&mode=crop",
-              "https://images.arla.com/recordid/C10F7939-84FD-4C67-A2229335AD6F3978/chicken-kebab1.jpg?format=jpg&width=1200&height=630&mode=crop",
-              "https://images.arla.com/recordid/C10F7939-84FD-4C67-A2229335AD6F3978/chicken-kebab1.jpg?format=jpg&width=1200&height=630&mode=crop",
+              food1,
+              food2,
+              food3,
+              food4,
+              food5,
+              food6,
+              food7,
+              food8,
+              food9,
+              food10,
+              food11,
+              food12,
             ].map((img, i) => (
               <img
                 key={i}

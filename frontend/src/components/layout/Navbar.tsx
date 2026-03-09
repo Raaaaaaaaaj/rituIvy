@@ -55,7 +55,7 @@ export const Navbar = () => {
       {/* Main Navbar */}
       <header
         className={cn(
-          "sticky top-0 z-50 transition-all duration-300",
+          "sticky top-0 z-5 transition-all duration-300",
           isScrolled
             ? "bg-white/95 backdrop-blur-md shadow-elegant"
             : "bg-transparent"
@@ -76,7 +76,7 @@ export const Navbar = () => {
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-8 textMontserrat">
+            <nav className="hidden lg:flex items-center z-10 gap-8 textMontserrat">
               {navLinks.map((link) => (
                 <Link
                   key={link.path}

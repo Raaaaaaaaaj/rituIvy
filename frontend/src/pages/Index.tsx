@@ -15,16 +15,18 @@ import ivySolo from "@/assets/images/IVY SOLO/2017-08-01-PHOTO-00000361.jpg"
 import ivyExecutive2 from "@/assets/images/IVY EXECUTIVE KING/EX KING.jpg"
 import king1 from "@/assets/images/IVY KING/002.jpg";
 import logoFont2 from "@/assets/images/Logos/newLogo.png";
+import { GuaranteedLowestPricePopup } from "@/components/layout/GuaranteedLowestPricePopup"
 
 // Hero Section
 const Hero = () => (
+
   <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
     <div
       className="absolute inset-0 bg-cover bg-center"
       style={{ backgroundImage: `url(${Facade4})` }}
     />
     <div className="absolute inset-0 bg-gradient-to-t from-jungle/80 via-transparent to-transparent" />
-    <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
+    <div className="relative z-5 text-center px-4 max-w-5xl mx-auto">
       <p className="text-cream font-medium tracking-[0.3em] uppercase mb-6 animate-fade-up">
         Welcome to
       </p>
@@ -410,15 +412,34 @@ const CTASection = () => (
 );
 
 // Main Index Component
+// const Index = () => {
+//   return (
+//     <>
+//       <GuaranteedLowestPricePopup />
+
+//       <Layout>
+//         <Hero />
+//         <AboutPreview />
+//         <Amenities />
+//         <RoomsPreview />
+//         <Testimonials />
+//       </Layout>
+//     </>
+//   );
+// };
 const Index = () => {
   return (
-    <Layout>
-      <Hero />
-      <AboutPreview />
-      <Amenities />
-      <RoomsPreview />
-      <Testimonials />
-    </Layout>
+    <>
+      <GuaranteedLowestPricePopup />
+
+      <Layout>
+        <Hero />
+        <AboutPreview />
+        <Amenities />
+        <RoomsPreview />
+        <Testimonials />
+      </Layout>
+    </>
   );
 };
 
