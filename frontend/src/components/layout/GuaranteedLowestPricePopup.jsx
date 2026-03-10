@@ -36,7 +36,7 @@ export const GuaranteedLowestPricePopup = () => {
   if (!open) return null;
 
   return createPortal(
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
       {/* Backdrop */}
       <div className="absolute inset-0 bg-black/50 backdrop-blur-md" onClick={closePopup} />
 
@@ -77,7 +77,7 @@ export const GuaranteedLowestPricePopup = () => {
               <div className="flex flex-col items-center space-y-2 border-r border-gray-100 pr-2">
                 <span className="text-2xl text-[#b9973b]">💰</span>
                 <p className="text-[11px] font-medium text-gray-600 uppercase leading-tight">
-                  Enjoy Savings on <br /> Room Rates
+                  * Enjoy Savings on <br /> Room Rates
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2">

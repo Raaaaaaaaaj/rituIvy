@@ -100,23 +100,23 @@ const Restaurant = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {[
               food1,
-              food2,
+              food11,
               food3,
               food4,
               food5,
-              food6,
               food7,
+              food2,
               food8,
               food9,
+              food6,
               food10,
-              food11,
               food12,
             ].map((img, i) => (
               <img
                 key={i}
                 src={img}
                 alt="Gallery"
-                className="rounded-2xl shadow-lg hover:scale-105 transition duration-500 object-cover h-64 w-full"
+                className="rounded-2xl shadow-lg hover:scale-105 transition duration-500 w-full h-auto"
               />
             ))}
           </div>

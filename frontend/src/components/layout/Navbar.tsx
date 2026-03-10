@@ -55,7 +55,7 @@ export const Navbar = () => {
       {/* Main Navbar */}
       <header
         className={cn(
-          "sticky top-0 z-50 transition-all duration-300",
+          "sticky top-0 z-[10] transition-all duration-300",
           isScrolled
             ? "bg-white/95 backdrop-blur-md shadow-elegant"
             : "bg-transparent"
@@ -76,7 +76,7 @@ export const Navbar = () => {
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center z-10 gap-8 textMontserrat">
+            <nav className="hidden lg:flex items-center z-[20] gap-8 textMontserrat">
               {navLinks.map((link) => (
                 <Link
                   key={link.path}
@@ -101,7 +101,7 @@ export const Navbar = () => {
 
             {/* CTA Button */}
             <div className="hidden lg:block">
-              <Button asChild className="bg-gold hover:bg-jungle text-cream font-semibold">
+              <Button asChild className="bg-gold sticky top-0:bg-jungle text-cream font-semibold">
                 <Link to="https://www.exceedsoftware.in/Website/Booking?hid=RjrVHq8mfWc%3d&pid=iyb5gHXOC8w%3d" target="_blank">Book Now</Link>
               </Button>
             </div>
@@ -110,7 +110,7 @@ export const Navbar = () => {
             <button
               className={cn(
                 "lg:hidden p-2 transition-colors",
-                isScrolled ? "text-jungle" : "text-cream"
+                isScrolled ? "text-jungle" : "text-gold"
               )}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
